@@ -1,0 +1,275 @@
+/* Start переменные  */
+:root {
+    --color-primary: #292D32;
+    --color-logo-part: #000000;
+    --color-logo-sub: #838383;
+    --color-style: #5932EA;
+    --color-marker: #FFFFFF;
+    --color-link: #9197B3;
+    --color-user-subc: #757575;
+}
+
+/* End переменные */
+
+
+body {
+    font-family: 'Poppins';
+    font-style: normal;
+    color: var(--color-primary);
+    background-color: cornsilk;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+
+}
+
+/* Start sidebar */
+aside {
+
+    width: 306px;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+    align-items: end;
+    margin-top: 36px;
+    margin-bottom: 64px;
+    margin-left: 28px;
+
+}
+
+.logo-pic {
+    margin-right: 8px;
+}
+
+.sidebar-title {
+
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    margin-right: 4px;
+    color: var(--color-logo-part);
+}
+
+.logo-sub {
+
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: var(--color-logo-sub);
+    padding-bottom: 6px
+}
+
+
+
+.sidebar-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 46px;
+    margin-bottom: 40px;
+    margin-left: 28px;
+    padding: 0 8px 0 11px;
+}
+
+.sidebar-link.active,
+.sidebar-link:hover {
+    background-color: var(--color-style);
+    border-radius: 8px;
+}
+
+.sidebar-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: var(--color-link);
+}
+
+.sidebar-user {
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 76px;
+    margin-left: 28px;
+
+}
+
+.sidebar-user-ava {
+    margin-right: 12px;
+}
+
+.sidebar-user-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: var(--color-logo-part)
+}
+
+.sidebar-user-sub {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: var(--color-user-subc);
+}
+
+/* End sidebar */
+
+/* Start customers */
+
+.customers-salutation {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.5;
+    color: var(--color-logo-part);
+    margin: 41px 0 56px 71px;
+}
+
+.customers-list {
+    width: 968px;
+    margin-left: 71px;
+    padding: 30px 44px 20px 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+}
+
+.customers-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: var(--color-logo-part);
+    margin-bottom: 7px;
+}
+
+.customers-sub {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #16C098;
+}
+
+.customers-panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.customers-search {
+    background: #F9FBFF;
+    border-radius: 10px;
+    width: 216px;
+    height: 38px;
+    text-decoration: none;
+    border: none;
+}
+
+.customers-table {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.customers-table-header {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #B5B7C0;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.table-header-text {
+    text-align: start;
+    padding-bottom: 14px;
+}
+
+.customers-status-on {
+    color: #008767;
+    text-align: center;
+    background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00B087;
+    border-radius: 4px;
+    padding: 4px 18px;
+}
+
+.customers-status-off {
+    color: #DF0404;
+    text-align: center;
+    background: #FFC5C5;
+    border: 1px solid #DF0404;
+    border-radius: 4px;
+    padding: 4px 18px;
+}
+
+.customers-table-row {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #292D32;
+    text-align: start;
+    height: 29px;
+    border-bottom: 1px solid #EEEEEE;
+
+}
+
+.customers-table-text {
+    padding: 20px 0;
+}
+
+.list-control {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.list-accounts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    color: #B5B7C0
+}
+
+.list-buttons {
+    width: 271px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    margin-right: 12px;
+    background: #F5F5F5;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    width: 26px;
+    height: 24px;
+    text-align: center;
+
+}
+
+.list-item-link {
+    align-items: center;
+}
+
+/* End customers */
