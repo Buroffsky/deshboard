@@ -241,23 +241,23 @@ aside {
     padding-bottom: 13px;
 }
 
-/* .customers-status-on {
+.customers-status-on {
     color: #008767;
     text-align: center;
     background: rgba(22, 192, 152, 0.38);
     border: 1px solid #00B087;
     border-radius: 4px;
-    padding: 4px 18px;
-} */
+    padding: 4px 17px;
+}
 
-/* .customers-status-off {
+.customers-status-off {
     color: #DF0404;
     text-align: center;
     background: #FFC5C5;
     border: 1px solid #DF0404;
     border-radius: 4px;
-    padding: 4px 12px;
-} */
+    padding: 4px 11px;
+}
 
 .customers-table-row {
     font-weight: 500;
