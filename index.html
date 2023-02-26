@@ -17,44 +17,86 @@
 <body>
     <div class="container">
         <aside class="sidebar">
-
             <a href="/" class="logo">
                 <img src="./img/logo.png" alt="Logo" class="logo-pic" width="37" height="37">
                 <h1 class="sidebar-title">Dashboard</h1>
                 <p class="logo-sub">v.01</p>
             </a>
-
             <ul class="sidebar-list">
                 <li class="siderbar-item"><a href="#" class="sidebar-link">
-                        <img src="./img/dashboard-icon.png" alt="dashboard-icon" class="sidebar-pic">
-                        <h2 class="sidebar-text">Dashboard</h2> <img src="./img/chevron-right.png" alt="chevron-right"
-                            class="sidebar-chevron">
+                        <div class="start">
+                            <img src="./img/dashboard-icon.png" alt="dashboard-icon" class="sidebar-pic" width="24"
+                                height="24">
+                            <h2 class="sidebar-text">Dashboard</h2>
+                        </div>
+
+
                     </a></li>
+
+
+
+                <li class="siderbar-item">
+                    <a href="#" class="sidebar-link">
+                        <div class="start">
+                            <img src="./img/product-icon.png" alt="product-icon" class="sidebar-pic" width="24"
+                                height="24">
+                            <h2 class="sidebar-text">Product</h2>
+                        </div>
+                        <img src="./img/chevron-right.png" alt="chevron-right" class="sidebar-chevron ende" width="16"
+                            height="16">
+                    </a>
+                </li>
+
+
+
+
+                <li class="siderbar-item ">
+                    <a href="#" class="sidebar-link active">
+                        <div class="start">
+                            <img src="./img/customers-icon.png" alt="customers-icon" class="sidebar-pic" width="24"
+                                height="24">
+                            <h2 class="sidebar-text">Customers</h2>
+                        </div>
+                        <img src="./img/chevron-right.png" alt="chevron-right" class="sidebar-chevron ende" width="16"
+                            height="16">
+                    </a>
+                </li>
+
+
                 <li class="siderbar-item"><a href="#" class="sidebar-link">
-                        <img src="./img/product-icon.png" alt="product-icon" class="sidebar-pic">
-                        <h2 class="sidebar-text">Product</h2> <img src="./img/chevron-right.png" alt="chevron-right"
-                            class="sidebar-chevron">
+                        <div class="start">
+
+                            <img src="./img/income-icon.png" alt="income-icon" class="sidebar-pic" width="24"
+                                height="24">
+                            <h2 class="sidebar-text">Income</h2>
+                        </div>
+                        <img src="./img/chevron-right.png" alt="chevron-right" class="sidebar-chevron ende" width="16"
+                            height="16">
                     </a></li>
-                <li class="siderbar-item "><a href="#" class="sidebar-link active">
-                        <img src="./img/customers-icon.png" alt="customers-icon" class="sidebar-pic">
-                        <h2 class="sidebar-text">Customers</h2> <img src="./img/chevron-right.png" alt="chevron-right"
-                            class="sidebar-chevron">
-                    </a></li>
+
+
                 <li class="siderbar-item"><a href="#" class="sidebar-link">
-                        <img src="./img/income-icon.png" alt="income-icon" class="sidebar-pic">
-                        <h2 class="sidebar-text">Income</h2> <img src="./img/chevron-right.png" alt="chevron-right"
-                            class="sidebar-chevron">
+                        <div class="start">
+
+                            <img src="./img/promote-icon.png" alt="promote-icon" class="sidebar-pic" width="24"
+                                height="24">
+                            <h2 class="sidebar-text">Promote</h2>
+                        </div>
+                        <img src="./img/chevron-right.png" alt="chevron-right" class="sidebar-chevron ende" width="16"
+                            height="16">
                     </a></li>
+
+
                 <li class="siderbar-item"><a href="#" class="sidebar-link">
-                        <img src="./img/promote-icon.png" alt="promote-icon" class="sidebar-pic">
-                        <h2 class="sidebar-text">Promote</h2> <img src="./img/chevron-right.png" alt="chevron-right"
-                            class="sidebar-chevron">
+                        <div class="start">
+
+                            <img src="./img/help-icon.png" alt="help-icon" class="sidebar-pic" width="24" height="24">
+                            <h2 class="sidebar-text">Help</h2>
+                        </div>
+                        <img src="./img/chevron-right.png" alt="chevron-right" class="sidebar-chevron ende" width="16"
+                            height="16">
                     </a></li>
-                <li class="siderbar-item"><a href="#" class="sidebar-link">
-                        <img src="./img/help-icon.png" alt="help-icon" class="sidebar-pic">
-                        <h2 class="sidebar-text">Help</h2> <img src="./img/chevron-right.png" alt="chevron-right"
-                            class="sidebar-chevron">
-                    </a></li>
+
             </ul>
             <div class="sidebar-user">
                 <img src="./img/user-ava.jpg" alt="user-ava" class="sidebar-user-ava">
@@ -74,7 +116,7 @@
                     <h3 class="customers-title">All Customers</h3>
                     <div class="customers-panel">
                         <p class="customers-sub">Active Members</p>
-                        <input class="customers-search" placeholder="&#128269;	 Search"></input>
+                        <input class="customers-search" placeholder="&#128269;Search">
                     </div>
 
 
@@ -163,13 +205,12 @@
                     <div class="list-control">
                         <p class="list-accounts">Showing data 1 to 8 of 256K entries</p>
                         <ul class="list-buttons">
-                            <li class="list-item"><a href="/">&lsaquo;</a>
-                            </li>
+                            <li class="list-item"><a href="/" class="list-item-link">&lsaquo;</a></li>
                             <li class="list-item"><a href="/" class="list-item-link">1</a></li>
                             <li class="list-item"><a href="/" class="list-item-link">2</a></li>
                             <li class="list-item"><a href="/" class="list-item-link">3</a></li>
                             <li class="list-item"><a href="/" class="list-item-link">4</a></li>
-                            <li class="list-item"><a href="/">...</a></li>
+                            <li class="list-item child"><a href="/" class="list-item-link child">...</a></li>
                             <li class="list-item"><a href="/" class="list-item-link">40</a></li>
                             <li class="list-item"><a href="/" class="list-item-link">&rsaquo;</a></li>
                         </ul>
