@@ -137,7 +137,8 @@ aside {
 
 .sidebar-user {
     /* position: fixed; */
-    margin-top: 300px;
+    position: fixed;
+    bottom: 76px;
     margin-left: 28px;
 
 }
@@ -222,8 +223,8 @@ aside {
 }
 
 .customers-table {
-    width: 922px;
-    margin-bottom: 33px;
+    width: 886px;
+    margin-bottom: 28px;
 }
 
 .customers-table-header {
@@ -237,27 +238,26 @@ aside {
 
 .table-header-text {
     text-align: start;
-    padding-bottom: 16px;
-
+    padding-bottom: 13px;
 }
 
-.customers-status-on {
+/* .customers-status-on {
     color: #008767;
     text-align: center;
     background: rgba(22, 192, 152, 0.38);
     border: 1px solid #00B087;
     border-radius: 4px;
     padding: 4px 18px;
-}
+} */
 
-.customers-status-off {
+/* .customers-status-off {
     color: #DF0404;
     text-align: center;
     background: #FFC5C5;
     border: 1px solid #DF0404;
     border-radius: 4px;
     padding: 4px 12px;
-}
+} */
 
 .customers-table-row {
     font-weight: 500;
@@ -271,7 +271,7 @@ aside {
 }
 
 .customers-table-text {
-    padding: 23px 0px;
+    padding: 23px 0px 24px 0;
 }
 
 .list-control {
