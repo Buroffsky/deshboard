@@ -326,3 +326,10 @@ aside {
 }
 
 /* End customers */
+
+@media (max-width: 1300px) {
+    aside {
+        position: absolute;
+        transform: translateX(-100%);
+    }
+}
