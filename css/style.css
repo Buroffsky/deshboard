@@ -157,7 +157,7 @@ aside {
 .burger {
     display: none;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     right: 15px;
     top: 15px;
 
@@ -244,6 +244,7 @@ aside {
     color: #B5B7C0;
     border-bottom: 1px solid #EEEEEE;
 }
+
 
 .table-header-text {
     text-align: start;
@@ -367,6 +368,7 @@ aside {
         overflow-x: auto;
         display: block;
     }
+
 
     .customers-salutation {
 
