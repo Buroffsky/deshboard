@@ -78,8 +78,6 @@ aside {
     padding-bottom: 6px
 }
 
-
-
 .sidebar-link {
     width: 230px;
     height: 46px;
@@ -92,8 +90,6 @@ aside {
     padding: 0 8px 0 11px;
 }
 
-
-
 .sidebar-link.active,
 .sidebar-link:hover,
 .sidebar-link:focus {
@@ -101,8 +97,6 @@ aside {
     border-radius: 8px;
     color: #FFFFFF;
 }
-
-
 
 .sidebar-pic {
     margin-right: 14px;
@@ -131,9 +125,6 @@ aside {
     letter-spacing: -0.01em;
     color: var(--color-link);
 }
-
-
-
 
 .sidebar-user {
     /* position: fixed; */
@@ -351,6 +342,8 @@ aside {
 
 /* End customers */
 
+/* Start медиазапросы  */
+
 @media (max-width: 1300px) {
     aside {
         position: absolute;
@@ -374,7 +367,6 @@ aside {
         overflow-x: auto;
         display: block;
     }
-
 
     .customers-salutation {
 
@@ -408,3 +400,5 @@ aside {
         margin-bottom: 20px;
     }
 }
+
+/* End медиазапросы  */
