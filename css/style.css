@@ -42,7 +42,7 @@ a {
 
 /* Start sidebar */
 aside {
-
+    height: 100%;
     width: 306px;
     /* height: 1198px; */
     background-color: #FFFFFF;
@@ -359,6 +359,10 @@ aside {
 
     aside.on {
         transform: translateX(0%);
+    }
+
+    .sidebar-user {
+        display: none;
     }
 
     .burger {
